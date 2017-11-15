@@ -15,7 +15,7 @@ public class Dependencies {
 	private static List<Edge> edges = new ArrayList<Edge>();
 	
 	/**
-	 * creates edges based on tokens (first token dependent on the others)
+	 * creates edges based on tokens (first token dependent on the others)  
 	 * 
 	 * @param tokens
 	 */
