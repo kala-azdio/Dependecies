@@ -28,9 +28,7 @@ public class Dependencies {
 			Edge edge = new Edge(dependentItem, tempItem);
 			edges.add(edge);
 		}
-		
-		
-		
+		System.out.println("Quick Fix");
 	}
  
 	public static void main(String[] args) {
