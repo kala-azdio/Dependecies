@@ -15,8 +15,7 @@ public class Dependencies {
 	private static List<Edge> edges = new ArrayList<Edge>();
 	
 	/**
-	 * creates edges based on tokens (first token dependent on the others)
-	 * summing added additionally  
+	 * creates edges based on tokens (first token dependent on the others)  
 	 * 
 	 * @param tokens
 	 */
@@ -28,7 +27,6 @@ public class Dependencies {
 			String tempItem = items[i];
 			Edge edge = new Edge(dependentItem, tempItem);
 			edges.add(edge);
-			System.out.println("Summing");
 		}
 		System.out.println("Quick Fix");
 	}
