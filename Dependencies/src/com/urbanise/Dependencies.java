@@ -25,7 +25,7 @@ public class Dependencies {
 		String[] items = tokens.split(" ");
 		String dependentItem = items[0];
 		for (int i = 1; i < items.length; i++) {
-			String tempItem = items[i];
+			String tempItem = items[i]; 
 			Edge edge = new Edge(dependentItem, tempItem);
 			edges.add(edge);
 			System.out.println("Summing");
