@@ -23,8 +23,9 @@ public class Dependencies {
 		// some comments
 		String[] items = tokens.split(" ");
 		String dependentItem = items[0];
-		for (int i = 1; i < items.length; i++) {
-			String tempItem = items[i];
+		for (String item : items) {
+			String tempItem = item;
+			
 			Edge edge = new Edge(dependentItem, tempItem);
 			edges.add(edge);
 		}
