@@ -16,7 +16,7 @@ public class Dependencies {
 	
 	/**
 	 * creates edges based on tokens (first token dependent on the others)
-	 * summing added additionally  
+	 * summing added additionally   
 	 * 
 	 * @param tokens
 	 */
