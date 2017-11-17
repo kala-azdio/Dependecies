@@ -23,7 +23,7 @@ public class Dependencies {
 	private void createEdges(String tokens) {
 		// some comments
 		String[] items = tokens.split(" ");
-		String dependentItem = items[0];
+		String dependentItem = items[0]; 
 		for (String item : items) {
 			String tempItem = item;
 			
